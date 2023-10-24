@@ -7,8 +7,8 @@ function Navegacion() {
     return (
         <nav className="navegacion">
             <Link
-                to="/"
-                className={location.pathname === '/' ? 'active' : ''}
+                to="/index"
+                className={location.pathname === '/index' ? 'active' : ''}
             >Inicio</Link>
 
             <Link
@@ -17,8 +17,8 @@ function Navegacion() {
             >Nosotros</Link> 
 
             <Link
-                to="/tienda"
-                className={location.pathname === '/tienda' ? 'active' : ''}
+                to="/guitarras"
+                className={location.pathname === '/guitarras' ? 'active' : ''}
             >Tienda</Link> 
 
             <Link
